@@ -1,125 +1,87 @@
-The files are:
+﻿<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Application%20Tracking%20System%20Using%20RAG&fontSize=32&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+</div>
 
-\* \`app.py\` → Main application file \* \`requirements.txt\` → Python
-dependencies \* \`.env\` → Environment variables (likely API keys, DB
-configs, etc.) \* \`test.py\` → Testing script \* \`my_project_env/\` →
-Virtual environment (not usually included in the repo)
+# Application-Tracking-System-Using-RAG
 
-\-\--
-
-\# ATS System (Applicant Tracking System)
-
-This project is an \*\*Applicant Tracking System (ATS)\*\* built with
-\*\*Python\*\*. It helps manage resumes, job applications, and candidate
-evaluation efficiently.
-
-\-\--
-
-\## 📂 Project Structure
-
-\`\`\` ATS System/ ├── app.py \# Main application entry point ├──
-test.py \# Test script ├── requirements.txt \# Python dependencies ├──
-.env \# Environment variables (API keys, DB configs, etc.) └──
-my_project_env/ \# Local virtual environment (not required for
-deployment) \`\`\`
-
-\-\--
-
-\## 🚀 Features
-
-\* Resume and job application management \* Candidate evaluation and
-matching \* Configurable environment using \`.env\` \* Modular design
-with Python
-
-\-\--
-
-\## 🛠️ Requirements
-
-Make sure you have installed:
-
-\* \[Python 3.8+\](https://www.python.org/) \* \`pip\` (Python package
-manager) \* Virtual environment (recommended)
-
-\-\--
-
-\## ⚙️ Installation
-
-1\. \*\*Clone or extract the project\*\*
-
-\`\`\`bash unzip \"ATS Sytsem.zip\" cd \"ATS Sytsem\" \`\`\`
-
-2\. \*\*Create virtual environment (recommended)\*\*
-
-\`\`\`bash python -m venv venv source venv/bin/activate \# On Linux/Mac
-venv\\Scripts\\activate \# On Windows \`\`\`
-
-3\. \*\*Install dependencies\*\*
-
-\`\`\`bash pip install -r requirements.txt \`\`\`
-
-4\. \*\*Set up environment variables\*\* Create a \`.env\` file in the
-root directory (already present in this project). Example content:
-
-\`\`\`env SECRET_KEY=your_secret_key DATABASE_URL=sqlite:///ats.db
-API_KEY=your_api_key_here \`\`\`
-
-\-\--
-
-\## ▶️ Running the Project
-
-1\. Run the application:
-
-\`\`\`bash python app.py \`\`\`
-
-2\. (Optional) Run tests:
-
-\`\`\`bash python test.py \`\`\`
-
-\-\--
-
-\## 📌 Notes
-
-\* Do \*\*not\*\* commit your \`.env\` file if it contains sensitive
-information. \* Ensure all required environment variables are configured
-before running the app.
-
-\-\--
-
-\## 🤝 Contributing
-
-Feel free to fork this repository and add new features such as job
-posting integration, resume parsing, or analytics.
-
-\-\--
-
-\## 📜 License
-
-This project is licensed under the MIT License.
-
-\-\--
-
+Intelligent resume screening and application tracking system using RAG (Retrieval-Augmented Generation) for smart candidate matching.
 
 ---
 
-## 📬 Contact
+## Project Status: âœ… COMPLETE & READY FOR DEPLOYMENT
 
-**Hafiz Abdul Rehman**
-
-- 📧 Email: hafizrehman3321@gmail.com
-- 💼 LinkedIn: [Hafiz Abdul Rehman](https://linkedin.com/in/hafiz-abdul-rehman-9990ab329)
-- 🐙 GitHub: [Abdul-Insighht](https://github.com/Abdul-Insighht)
+![GitHub stars](https://img.shields.io/github/stars/Abdul-Insighht/=social)
+![GitHub forks](https://img.shields.io/github/forks/Abdul-Insighht/=social)
 
 ---
 
-## 🌟 Show Your Support
+## ðŸ› ï¸ Tech Stack
 
-If you find this project helpful, please consider:
-
-- ⭐ **Starring** this repository
-- 🔄 **Sharing** with others
-- 🐛 **Reporting** issues
-- 💡 **Suggesting** improvements
+```
+Python, LangChain, RAG, FAISS, Streamlit
+```
 
 ---
 
-<p align="center">Made with ❤️ by <b>Hafiz Abdul Rehman</b></p>
+## ðŸš€ Getting Started
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Abdul-Insighht/Application-Tracking-System-Using-RAG.git
+cd Application-Tracking-System-Using-RAG
+```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the project**
+```bash
+python main.py
+```
+
+---
+
+## â­ Quick Links
+
+â­ [Star this repo](https://github.com/Abdul-Insighht/Application-Tracking-System-Using-RAG) â€¢ ðŸ› [Report Bug](https://github.com/Abdul-Insighht/Application-Tracking-System-Using-RAG/issues) â€¢ ðŸ’¡ [Request Feature](https://github.com/Abdul-Insighht/Application-Tracking-System-Using-RAG/issues)
+
+---
+
+Made with â¤ï¸ using Python & AI Technologies â€” Demonstration by **Abdul-Insighht** - Data Science Specialist | AI Agent & Agentic AI Developer
+
+---
+
+## ðŸ‘¤ Author
+
+<table>
+<tr>
+<td>
+
+**Hafiz Abdul Rehman**  
+[Abdul-Insighht](https://github.com/Abdul-Insighht) Â· he/him  
+**Data Science Specialist | AI Agent & Agentic AI Developer**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Abdul--Insighht-181717?style=flat-square&logo=github)](https://github.com/Abdul-Insighht)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/hafiz-abdul-rehman-9990ab329/)
+
+</td>
+</tr>
+</table>
+
+---
+
+## ðŸ“„ License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+</div>
+
+<div align="center">
+  <sub>â­ï¸ From <a href="https://github.com/Abdul-Insighht">Abdul-Insighht</a> â€” Passionate about AI, ML, and solving real-world problems</sub>
+</div>
